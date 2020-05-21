@@ -6,6 +6,13 @@ body {
     background-color: white;
 }
 
+/* CSS of First Wave of Content */
+
+#spacebeforenextcontent .btn {
+    font-size: 100px;
+    background-color: transparent;
+}
+
 #firstheadline{
     background-image: url(Images/Homepage.png);
     height: 100vh;
@@ -130,16 +137,20 @@ body {
     }
 }
 
-#spacebeforenextcontent {
+/* #spacebeforenextcontent {
     padding-top: 5%;
-}
+} */
 
 #secondheadline {
-    background-color: black;
+    background-color: #003366;
 }
 
 #secondheadline #thingsido {
     font-weight: bolder;
+}
+
+#mainskills {
+    background-color: black;
 }
 
 .card {
@@ -181,7 +192,7 @@ body {
 }
 
 #lines {
-    background-color: black;
+    background-color: none;
 }
 
 #lines .line1 {
@@ -240,8 +251,12 @@ body {
 
 } */
 
+#myfooter {
+    background-color: #003366;
+}
+
 .page-footer {
-    background-color: black;
+    background-color: #003366;
 }
 
 .page-footer a {
@@ -250,7 +265,7 @@ body {
 }
 
 #myfooter #emailmebutton {
-    background-color: black;
+    background-color: #003366;
     color: white;
 }
 
@@ -265,7 +280,7 @@ body {
 }
 
 #myfooter #emailmebutton2 {
-    background-color: black;
+    background-color: #003366;
     color: white;
 }
 
@@ -274,20 +289,18 @@ body {
     color: black;
 } */
 
-.page-footer .footer-copyright {
-    background-color: black;
+#spacebeforenextcontent .copyright{
     color: white;
 }
 
-.page-footer .footer-copyright h5 {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.page-footer .footer-copyright:hover {
+#spacebeforenextcontent .copyright:hover{
     background-color: gray;
     color: #003366;
 }
+
+/* End CSS of First Wave of Content */
+
+
 
 
 
