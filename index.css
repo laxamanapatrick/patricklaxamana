@@ -6,6 +6,13 @@ body {
     background-color: white;
 }
 
+/* CSS of First Wave of Content */
+
+#spacebeforenextcontent .btn {
+    font-size: 100px;
+    background-color: transparent;
+}
+
 #firstheadline{
     background-image: url(Images/Homepage.png);
     height: 100vh;
@@ -130,16 +137,20 @@ body {
     }
 }
 
-#spacebeforenextcontent {
+/* #spacebeforenextcontent {
     padding-top: 5%;
-}
+} */
 
 #secondheadline {
-    background-color: black;
+    background-color: #003366;
 }
 
 #secondheadline #thingsido {
     font-weight: bolder;
+}
+
+#mainskills {
+    background-color: black;
 }
 
 .card {
@@ -155,77 +166,77 @@ body {
 /* secondheadline media query */
 
 @media (max-width:1820px) {
-    #secondheadline #frontend:hover {
+    #mainskills #frontend:hover {
         color: white;
         background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
         background-size: cover;
     }
-    #secondheadline #drafting:hover {
+    #mainskills #drafting:hover {
         color: white;
         background-image: url(https://images.unsplash.com/photo-1547027072-332f09bd6bb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
         background-size: cover;
     }
-    #secondheadline #videoediting:hover {
+    #mainskills #videoediting:hover {
         color: white;
         background-image: url(https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
         background-size: cover;
     }
-    #secondheadline #socializing:hover {
+    #mainskills #socializing:hover {
         color: white;
         background-image: url(https://images.unsplash.com/photo-1523474438810-b04a2480633c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
         background-size: cover;
     }
-    #secondheadline .card:hover p {
+    #mainskills .card:hover p {
         visibility: hidden;
     }
 }
 
 #lines {
-    background-color: black;
+    background-color: none;
 }
 
 #lines .line1 {
-    margin-top: -7%;
-    margin-left: 12.5%;
+    margin-top: -13%;
+    margin-left: 11.5%;
 }
 
 #lines .line2 {
-    margin-top: -21.3%;
+    margin-top: -16.3%;
     margin-left: 37.7%;
 }
 
 #lines .line3 {
-    margin-top: -63.8%;
+    margin-top: -72.8%;
     margin-left: 62.4%;
 }
 
 #lines .line4 {
-    margin-top: -20.3%;
-    margin-left: 86.9%;
+    margin-top: -15.9%;
+    margin-left: 88.2%;
 }
 
 #lines .image1 {
     width: 23%;
-    margin-top: -2%;
-    margin-left: 1.5%;
+    margin-top: -5%;
+    margin-left: 0.1%;
 }
 
 #lines .image2 {
     width: 23%;
-    margin-top: -2.5%;
-    margin-left: 26%;
+    margin-top: 1%;
+    margin-left: 25.8%;
 }
 
 #lines .image3 {
     width: 23%;
-    margin-top: -30.4%;
-    margin-left: 50.5%;
+    margin-top: -34.9%;
+    margin-left: 51.3%;
 }
 
 #lines .image4 {
     width: 23%;
-    margin-top: -2%;
-    margin-left: 74.9%;
+    margin-top: 1%;
+    margin-left: 77.3%;
 }
 
 /* lines media query */
@@ -240,8 +251,12 @@ body {
 
 } */
 
+#myfooter {
+    background-color: #003366;
+}
+
 .page-footer {
-    background-color: black;
+    background-color: #003366;
 }
 
 .page-footer a {
@@ -250,7 +265,7 @@ body {
 }
 
 #myfooter #emailmebutton {
-    background-color: black;
+    background-color: #003366;
     color: white;
 }
 
@@ -265,7 +280,7 @@ body {
 }
 
 #myfooter #emailmebutton2 {
-    background-color: black;
+    background-color: #003366;
     color: white;
 }
 
@@ -274,22 +289,14 @@ body {
     color: black;
 } */
 
-.page-footer .footer-copyright {
-    background-color: black;
+#spacebeforenextcontent .copyright{
     color: white;
 }
 
-.page-footer .footer-copyright h5 {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.page-footer .footer-copyright:hover {
+#spacebeforenextcontent .copyright:hover{
     background-color: gray;
     color: #003366;
 }
 
-
-
-
+/* End CSS of First Wave of Content */
 
